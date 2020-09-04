@@ -1,0 +1,47 @@
+textarea {
+    min-height: 400px;
+}
+.email-button{
+  display: block;
+  width: 100%;
+  padding: 14px 28px;
+  text-align: center;
+  cursor: pointer;
+}
+.email-button:hover{
+  background-color: #d6fcff;
+  color: black;
+}
+.read{
+  background-color: #D3D3D3;
+}
+.unread{
+  background-color: white;
+  font-weight: bold;
+}
+.email-div{
+  padding: 5px 50px;
+  width: 100%;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-item{
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+}
+.flex-container-content{
+  justify-content: space-between;
+}
+.subject{
+  font-weight: bold;
+}
+.body{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.arch-button{
+  margin-right: 10px;
+}
